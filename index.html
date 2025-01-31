@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Info</title>
+    <link rel="icon" href="pictures/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        </select>
+    </div>
+
+    <div class="container">
+        <h1>Informations about your device</h1>
+
+        <div class="section">
+            <h2>Network</h2>
+            <div class="card">
+                <p><strong>Public IP:</strong> <span id="ip-wan" class="loading">Loading...</span></p>
+                <p><strong>Local IP:</strong> <span id="ip-local" class="unavailable">Not detectable in browser.</span></p>
+                <p><strong>Location:</strong> <span id="location" class="loading">Loading...</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>System</h2>
+            <div class="card">
+                <p><strong>CPU Cores:</strong> <span id="cpu-cores" class="loading">Detecting...</span></p>
+                <p><strong>Approximate CPU Speed:</strong> <span id="cpu-speed" class="unavailable">Not detectable in browser.</span></p>
+                <p><strong>Available RAM:</strong> <span id="ram" class="unavailable">Not detectable in browser.</span></p>
+                <p><strong>Available Storage:</strong> <span id="storage" class="unavailable">Not detectable in browser.</span></p>
+                <p><strong>GPU:</strong> <span id="gpu" class="loading">Detecting...</span></p>
+                <p><strong>Hardware Acceleration:</strong> <span id="hardware-accel" class="loading">Detecting...</span></p>
+                <p><strong>OS Version:</strong> <span id="os-version" class="loading">Detecting...</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Battery</h2>
+            <div class="card">
+                <p><strong>Battery Level:</strong> <span id="battery-level" class="loading">Detecting...</span></p>
+                <p><strong>Charging:</strong> <span id="battery-charging" class="loading">Detecting...</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Display</h2>
+            <div class="card">
+                <p><strong>Screen Resolution:</strong> <span id="resolution" class="loading">Detecting...</span></p>
+                <p><strong>Screen Orientation:</strong> <span id="orientation" class="loading">Detecting...</span></p>
+                <p><strong>Dark Mode:</strong> <span id="dark-mode" class="loading">Detecting...</span></p>
+                <p><strong>Touchscreen:</strong> <span id="touch" class="loading">Detecting...</span></p>
+                <p><strong>Color Depth:</strong> <span id="color-depth" class="loading">Detecting...</span></p>
+                <p><strong>Pixel Ratio:</strong> <span id="pixel-ratio" class="loading">Detecting...</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Browser</h2>
+            <div class="card">
+                <p><strong>User-Agent:</strong></p>
+                <pre id="user-agent" class="loading">Detecting...</pre>
+                <p><strong>Platform:</strong> <span id="platform" class="loading">Detecting...</span></p>
+                <p><strong>Language:</strong> <span id="language" class="loading">Detecting...</span></p>
+                <p><strong>Time Zone:</strong> <span id="timezone" class="loading">Detecting...</span></p>
+                <p><strong>Cookies Enabled:</strong> <span id="cookies" class="loading">Detecting...</span></p>
+                <p><strong>JavaScript Enabled:</strong> ✅</p>
+                <p><strong>AdBlock Detected:</strong> <span id="adblock" class="loading">Detecting...</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Permissions</h2>
+            <div class="card">
+                <p><strong>Microphone:</strong> <span id="mic-permission" class="loading">Detecting...</span></p>
+                <p><strong>Camera:</strong> <span id="camera-permission" class="loading">Detecting...</span></p>
+                <p><strong>Notifications:</strong> <span id="notifications-permission" class="loading">Detecting...</span></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Device Info</h2>
+            <div class="card">
+                <p><strong>Device Type:</strong> <span id="device-type" class="loading">Detecting...</span></p>
+                <p><strong>WebRTC Support:</strong> <span id="webrtc-support" class="loading">Detecting...</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Made with ❤️ by <a href="https://github.com/therealskywarp">Skywarp</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
